@@ -1,0 +1,19 @@
+/*
+reglas
+selectores
+declaraciones
+propiedades
+valores
+*/
+
+header {
+  background: pink;
+}
+
+body header div nav ul li a {
+  color: yellow;
+}
+
+.link {
+  color: blue;
+}
