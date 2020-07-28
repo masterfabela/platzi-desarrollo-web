@@ -41,3 +41,15 @@ h1 {
   font-weight: normal;
   letter-spacing: -0.2px;
 }
+
+.project-details {
+  width: 500px;
+}
+
+.project-image-container {
+  width: 500px;
+}
+
+.hero {
+  height: 300px;
+}
