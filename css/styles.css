@@ -41,10 +41,17 @@ h1 {
   font-weight: normal;
   letter-spacing: -0.2px;
   color: white;
+  margin: 100px 150px 70px 30px;
 }
 
 h1 strong {
   color: #026fff;
+}
+
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .project-details {
