@@ -9,9 +9,6 @@ valores
 */
 
 /*
-header {
-  background: pink;
-}
 
 body header div nav ul li a {
   color: yellow;
@@ -82,9 +79,54 @@ h1 strong {
 .header {
   background-color: #1b2127;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
 }
 
 .header a {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.header ul {
+  display: flex;
+  height: inherit;
+  height: 90px;
+}
+
+.header ul li {
+  height: inherit;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  flex-shrink: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.menu {
+  height: inherit;
 }
