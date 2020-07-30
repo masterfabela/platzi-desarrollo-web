@@ -23,6 +23,7 @@ body header div nav ul li a {
 */
 
 body {
+  margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -48,10 +49,17 @@ h1 strong {
   color: #026fff;
 }
 
+.portfolio {
+  background: #fafafa;
+}
+
 .project {
   border: 1px solid gray;
   border-radius: 10px;
+  margin: 10px;
   margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
 }
 
 .project-details {
