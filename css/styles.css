@@ -39,7 +39,7 @@ h1 {
   font-weight: normal;
   letter-spacing: -0.2px;
   color: white;
-  margin: 100px 150px 70px 30px;
+  margin: 0;
 }
 
 h1 strong {
@@ -74,6 +74,8 @@ h1 strong {
   background-repeat: no-repeat;
   background-position-x: right;
   background-color: #1b2127;
+  display: flex;
+  align-items: center;
 }
 
 .header {
@@ -81,7 +83,8 @@ h1 strong {
   color: white;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  align-items: center;
+  height: 70px;
 }
 
 .header a {
@@ -96,7 +99,7 @@ h1 strong {
 .header ul {
   display: flex;
   height: inherit;
-  height: 90px;
+  height: 70px;
 }
 
 .header ul li {
@@ -129,4 +132,20 @@ figure {
 
 .menu {
   height: inherit;
+}
+
+.footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
 }
