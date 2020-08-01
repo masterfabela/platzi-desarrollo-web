@@ -46,21 +46,53 @@ h1 strong {
   color: #026fff;
 }
 
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
 .portfolio {
   background: #fafafa;
+  padding: 20px;
 }
 
 .project {
-  border: 1px solid gray;
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  margin: 10px;
   margin-bottom: 15px;
   padding: 20px;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project strong {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.project-course,
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .project-details {
   width: 500px;
+}
+
+.project-description {
+  font-size: 20px;
 }
 
 .project-image-container {
@@ -116,7 +148,6 @@ h1 strong {
 .box {
   width: 200px;
   height: 200px;
-  border: 1px solid red;
   flex-shrink: 0;
 }
 
@@ -148,4 +179,49 @@ figure {
 
 .footer a {
   color: white;
+}
+
+.event-list {
+  display: flex;
+}
+
+.event-list-title {
+  margin-left: 20px;
+}
+
+.event {
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.15);
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: #f4fbff;
+}
+
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-description {
+  text-align: left;
+}
+
+.event-url {
+  border: 1px solid #056fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #056fff;
+  border-radius: 5px;
 }
